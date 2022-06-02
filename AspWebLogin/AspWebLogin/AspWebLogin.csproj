@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder1\**" />
+    <Content Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <None Remove="NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\bootstrap.min.css" />
+    <Content Remove="wwwroot\css\templatemo-diagoona.css" />
+    <Content Remove="wwwroot\js\bootstrap.min.js" />
+    <Content Remove="wwwroot\js\jquery-3.4.1.min.js" />
+    <Content Remove="wwwroot\js\jquery.backstretch.min.js" />
+    <Content Remove="wwwroot\js\templatemo-script.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\bootstrap.min.css" />
+    <None Include="wwwroot\css\templatemo-diagoona.css" />
+    <None Include="wwwroot\fontawesome\css\all.min.css" />
+    <None Include="wwwroot\fontawesome\LICENSE.txt" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.eot" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.svg" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.ttf" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.woff" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-brands-400.woff2" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.eot" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.svg" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.ttf" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.woff" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-regular-400.woff2" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.eot" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.svg" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.ttf" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.woff" />
+    <None Include="wwwroot\fontawesome\webfonts\fa-solid-900.woff2" />
+    <None Include="wwwroot\img\diagoona-bg-1.jpg" />
+    <None Include="wwwroot\img\diagoona-bg-2.jpg" />
+    <None Include="wwwroot\img\diagoona-bg-3.jpg" />
+    <None Include="wwwroot\img\services-1.jpg" />
+    <None Include="wwwroot\img\services-2.jpg" />
+    <None Include="wwwroot\img\services-3.jpg" />
+    <None Include="wwwroot\js\bootstrap.min.js" />
+    <None Include="wwwroot\js\jquery-3.4.1.min.js" />
+    <None Include="wwwroot\js\jquery.backstretch.min.js" />
+    <None Include="wwwroot\js\templatemo-script.js" />
+  </ItemGroup>
+
+</Project>

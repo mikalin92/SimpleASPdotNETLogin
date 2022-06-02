@@ -1,0 +1,9 @@
+﻿@using Microsoft.AspNetCore.Http;
+
+
+
+<h3>Kirjautuminen onnistui</h3>
+    Tervetuloa @Context.Session.GetString("username")
+<br>
+<a asp-controller="account" asp-action="logout">Logout</a>
+
